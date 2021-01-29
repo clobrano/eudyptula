@@ -1,0 +1,25 @@
+From 3d99b52dd72c8949b9eb6a31d541a2f8aa492d10 Mon Sep 17 00:00:00 2001
+From: Carlo Lobrano <c.lobrano@gmail.com>
+Date: Fri, 29 Jan 2021 16:12:24 +0100
+Subject: [PATCH] Add eudyptula substring to Kernel version string
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index e0af7a4a5..2e78abbae 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -rc-eudyptula
+ NAME = Kleptomaniac Octopus
+ 
+ # *DOCUMENTATION*
+-- 
+2.27.0
+
